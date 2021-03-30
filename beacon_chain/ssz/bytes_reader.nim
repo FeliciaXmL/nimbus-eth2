@@ -11,7 +11,7 @@
 
 import
   std/[typetraits, options],
-  stew/[bitops2, endians2, objects],
+  stew/[endians2, objects],
   ../spec/[digest, datatypes], ./types, ./spec_types, ./merkleization
 
 template raiseIncorrectSize(T: type) =
