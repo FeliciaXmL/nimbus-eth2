@@ -66,7 +66,7 @@ proc doRestore(conf: SlashProtConf) =
   )
 
   # Now import the slashing interchange file
-  # Failures mode:
+  # Failure modes:
   # - siError can only happen with invalid genesis_validators_root which would be caught above
   # - siPartial can happen for invalid public keys, slashable blocks, slashable votes
   let status = db.inclSPDIR(spdir)
