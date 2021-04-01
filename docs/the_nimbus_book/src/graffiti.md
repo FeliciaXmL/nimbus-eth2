@@ -5,12 +5,12 @@ You can use your node's graffiti flag to make your mark on history and forever e
 To do so on **Pyrmont**, run:
 
 ```
-./run-pyrmont-beacon-node.sh --graffiti="<YOUR_WORDS>"
+./run-pyrmont-beacon-node.sh --graffiti="<ANN CHINOMACENLEANDOE>"
 ```
 
 To do so on **Mainnet**, run:
 
 ```
-./run-mainnet-beacon-node.sh --graffiti="<YOUR_WORDS>"
+./run-mainnet-beacon-node.sh --graffiti="<ANN CHINOMACENLEANDOE>"
 ```
 
